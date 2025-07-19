@@ -1,0 +1,28 @@
+export interface RoomInfo {
+    room_name: string | null;
+    Number_of_Bedrooms: number | null;
+    Number_of_Bathrooms: number | null;
+    Max_Guests: number | null;
+    Total_number_of_rooms_Available: number | null;
+    baby_cot_available: string | null;
+    pool_available: string | null;
+    gym: string | null;
+    pets_allowed: string | null;
+    "Pet_Cleaning_Charges_(Guest_Basic_Queries)": string | null;
+    "Parking_Space_(Guest_Basic_Queries)": number | null;
+    "Cook_Charges_(Guest_Basic_Queries)": string | null;
+    "Wifi_Connectivity_(Guest_Basic_Queries)": string | null;
+    "Ramp_for_Wheel_Chair_(additional_Facilities)": string | null;
+    "Toiletries_(additional_Facility)": string | null;
+    "Bedsheets_and_Towels_(additional_Facility)": string | null;
+    "Access_for_senior_citizen_(additional_Facilities)": string | null;
+    "Speciality_(additional_Information)": string | null;
+    "Issues_(additional_Information)": string | null;
+    fridge_available: string | null;
+    oven_available: string | null;
+    microwave_available: string | null;
+    "Width_(Pool_Size)": string | null;
+    "Length_(Pool_Size)": string | null;
+    "Depth_1_(Pool_Size)": string | null;
+    "Depth_2_(Pool_Size)": string | null;
+}

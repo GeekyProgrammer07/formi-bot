@@ -1,21 +1,14 @@
 import express from 'express';
-import Redis from "ioredis";
+import { mainRouter } from './routes/mainRouter';
 
 const app = express();
 
+app.use('/api/v1', mainRouter);
 
-const redis = new Redis(); 
-
-redis.set("Name", "Suman");
-redis.get("Name", (err, result) => {
-  console.log(result);
+app.get('/', (_, res) => {
+    res.send("Hi there");
 });
 
-
-app.get('/',  (req, res) => {
-    res.send("Hi there");
-})
-
 app.listen(3000, () => {
-    console.log("Listening on 3000")
-})
+    console.log(`Server is Up`);
+});
