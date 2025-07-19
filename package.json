@@ -26,6 +26,9 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "axios": "^1.10.0",
+    "express": "^5.1.0",
+    "googleapis": "^153.0.0",
+    "ioredis": "^5.6.1"
   }
 }
