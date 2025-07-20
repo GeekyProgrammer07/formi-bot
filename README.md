@@ -23,3 +23,6 @@ This project implements a Voice AI agent using Retell AI, integrated with Expres
     - Reworked previously generated JSON data into a more detailed, granular structure for easier chunking.
     - Added Redis caching to store and retrieve chunks efficiently.
     - Fixed and improved routing setup for the Express server.
+## Example Architecture
+
+![Example Archutecture](./github-assets/Example-Architecture.png)
