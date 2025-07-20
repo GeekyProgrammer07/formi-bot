@@ -1,5 +1,5 @@
 import express from "express";
-import { convertToJson } from "../controller/fileRouterController";
+import { convertToJson } from "../controller/fileController";
 
 export const fileRouter = express.Router();
 

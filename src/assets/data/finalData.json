@@ -1,0 +1,95 @@
+[
+  {
+    "id": "1",
+    "name": "Amani Room",
+    "bedrooms": "2",
+    "bathrooms": "2",
+    "max_guests": "4",
+    "amenities": [
+      "baby cot",
+      "Wi-Fi (100 Mbps)",
+      "toiletries",
+      "bedsheets, towels"
+    ],
+    "visitor_policy": "Prior approval",
+    "cancellation_policy": "For cancellations made up to 15 days prior to the check-in date, 80%* of the booking amount will be refunded via the original payment mode or 100% in the form of a future credit note, which can be redeemed at the originally booked Lohono Villa\nFor cancellations made 8-14 days prior to the check-in date, 50%* of the booking amount will be refunded\nFor cancellations made within 7 days prior to the check-in date, the booking amount will be non-refundable\nStandard Cancellation Policy does not apply to peak or blackout dates. Refunds are only available if 100% payment has been made. Partial payments are non-refundable.\nFor additional information please refer to our Terms and Conditions",
+    "kids_policy": "Rentals = Comp under 5 years, F&b charges as per menu selection.",
+    "price": "33200 INR",
+    "speciality": "NA",
+    "issues": "No additional services allowed",
+    "cook_charges": "1500 per meal per person",
+    "availability": "34 rooms available",
+    "token_count": 192
+  },
+  {
+    "id": "2",
+    "name": "Amani Premium Rooms",
+    "bedrooms": "2",
+    "bathrooms": "2",
+    "max_guests": "4",
+    "amenities": [
+      "baby cot",
+      "pool (Size: 20x40, Depth: 4'5 ft - 5 ft)",
+      "Wi-Fi (100 Mbps)",
+      "toiletries",
+      "bedsheets, towels"
+    ],
+    "visitor_policy": "Prior approval",
+    "cancellation_policy": "For cancellations made up to 15 days prior to the check-in date, 80%* of the booking amount will be refunded via the original payment mode or 100% in the form of a future credit note, which can be redeemed at the originally booked Lohono Villa\nFor cancellations made 8-14 days prior to the check-in date, 50%* of the booking amount will be refunded\nFor cancellations made within 7 days prior to the check-in date, the booking amount will be non-refundable\nStandard Cancellation Policy does not apply to peak or blackout dates. Refunds are only available if 100% payment has been made. Partial payments are non-refundable.\nFor additional information please refer to our Terms and Conditions",
+    "kids_policy": "Rentals = Comp under 5 years, F&b charges as per menu selection.",
+    "price": "",
+    "speciality": "NA",
+    "issues": "No additional services allowed",
+    "cook_charges": "Breakfast Free, Dinner and Lunch 1500 per meal per person",
+    "availability": "15 rooms available",
+    "token_count": 204
+  },
+  {
+    "id": "3",
+    "name": "Albany Area Rooms",
+    "bedrooms": "3",
+    "bathrooms": "4",
+    "max_guests": "6",
+    "amenities": [
+      "baby cot",
+      "pool (Size: 30x50, Depth: 4 ft - 10 ft)",
+      "gym",
+      "Wi-Fi (100 Mbps)",
+      "toiletries",
+      "bedsheets, towels"
+    ],
+    "visitor_policy": "Prior approval",
+    "cancellation_policy": "For cancellations made up to 15 days prior to the check-in date, 80%* of the booking amount will be refunded via the original payment mode or 100% in the form of a future credit note, which can be redeemed at the originally booked Lohono Villa\nFor cancellations made 8-14 days prior to the check-in date, 50%* of the booking amount will be refunded\nFor cancellations made within 7 days prior to the check-in date, the booking amount will be non-refundable\nStandard Cancellation Policy does not apply to peak or blackout dates. Refunds are only available if 100% payment has been made. Partial payments are non-refundable.\nFor additional information please refer to our Terms and Conditions",
+    "kids_policy": "Rentals = Comp under 5 years, F&b charges as per menu selection.",
+    "price": "",
+    "speciality": "NA",
+    "issues": "No additional services allowed",
+    "cook_charges": "Breakfast Free, Dinner and Lunch 1500 per meal per person",
+    "availability": "10 rooms available",
+    "token_count": 206
+  },
+  {
+    "id": "4",
+    "name": "Airyland Floor",
+    "bedrooms": "4",
+    "bathrooms": "6",
+    "max_guests": "8",
+    "amenities": [
+      "baby cot",
+      "pool (Size: 40x80, Depth: 4 ft - 10 ft)",
+      "gym",
+      "Wi-Fi (100 Mbps)",
+      "toiletries",
+      "bedsheets, towels"
+    ],
+    "visitor_policy": "Prior approval",
+    "cancellation_policy": "For cancellations made up to 15 days prior to the check-in date, 80%* of the booking amount will be refunded via the original payment mode or 100% in the form of a future credit note, which can be redeemed at the originally booked Lohono Villa\nFor cancellations made 8-14 days prior to the check-in date, 50%* of the booking amount will be refunded\nFor cancellations made within 7 days prior to the check-in date, the booking amount will be non-refundable\nStandard Cancellation Policy does not apply to peak or blackout dates. Refunds are only available if 100% payment has been made. Partial payments are non-refundable.\nFor additional information please refer to our Terms and Conditions",
+    "kids_policy": "Rentals = Comp under 5 years, F&b charges as per menu selection.",
+    "price": "",
+    "speciality": "NA",
+    "issues": "Free Spa for 2 members",
+    "cook_charges": "All Meals free",
+    "availability": "5 rooms available",
+    "token_count": 204
+  }
+]
