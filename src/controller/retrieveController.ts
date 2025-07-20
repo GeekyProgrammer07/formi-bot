@@ -14,7 +14,6 @@ export const retrieveController = async (req: Request, res: Response) => {
 
     const query = q.toLowerCase();
     const room = roomsData.find((r: any) => r.name.toLowerCase() === query);
-
     if (!room) {
         return res.status(404).json({ error: `Room with name "${q}" not found` });
     }
@@ -35,7 +34,7 @@ export const retrieveController = async (req: Request, res: Response) => {
             chunks = chunkifyObject(room, room.id);
             await cacheChunks(chunks, room.id);
         } else {
-            chunks = [{ id: room.id, ...room }];
+            chunks = [{ ...room }];
             await redisClient.set(`room:${room.id}`, JSON.stringify(room));
             await redisClient.set(`room:${room.id}:chunks`, JSON.stringify([room.id]));
         }

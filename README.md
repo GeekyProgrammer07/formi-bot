@@ -27,3 +27,9 @@ This project implements a Voice AI agent using Retell AI, integrated with Expres
     - Reworked previously generated JSON data into a more detailed, granular structure for easier chunking.
     - Added Redis caching to store and retrieve chunks efficiently.
     - Fixed and improved routing setup for the Express server.
+      <br><br>
+- **Session 4 (3:00 PM - 5:00 PM)**:
+  - Goal: Complete the Google Sheets integration.
+  - Progress: 
+    - Completed all Google Sheets API basics.
+    - Tested and verified successful logging of data to Google Sheets.
