@@ -16,7 +16,7 @@ export const conversationLogs = async (req: Request, res: Response) => {
         const sheets = google.sheets({ version: 'v4', auth });
         const spreadsheetId = process.env.SHEET_ID;
 
-        const timestamp = new Date().toISOString();
+        const timestamp = new Date();
         const callId = uuidv4();
 
         const values = [[

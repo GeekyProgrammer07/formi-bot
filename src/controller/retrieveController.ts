@@ -7,7 +7,7 @@ import { redisClient } from "../config/redis";
 const roomsData = JSON.parse(fs.readFileSync("./src/assets/data/finalData.json", "utf8"));
 
 export const retrieveController = async (req: Request, res: Response) => {
-    const q = req.query.q as string | undefined;
+    const q = req.query.q as string;
     if (!q) {
         return res.status(400).json({ error: "Query parameter 'q' is required" });
     }
